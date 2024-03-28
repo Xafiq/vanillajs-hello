@@ -1,29 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <!-- Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap"
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Xafiq Excuse generator</title>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        <!-- Header Title -->
+    <header >
+      <div class="header" >
+        <div>
+          <h1>Excuse Generator</h1>
+        </div>
+    </header>
+    <!-- Excuse generator button -->
+      <div class="wrap"> 
+        <button id="excuseBtn">Please let me explain!</button>
+        <!-- Excuse sentence -->
+        <p id="theexcuse"></p>
+      </div>
+      <div class="footer">
+        Made by
+        <a class="link" href="https://github.com/Xafiq">Xafiq</a>
+        in collaboration with
+        <img src="https://storage.googleapis.com/replit/images/1511936948186_53605a1f8e2f117b874504a42b735a7f.png">
+
+        <a class="link" href="https://github.com/4GeeksAcademy">4Geeks Academy</a>
       </div>
     </div>
+    <!-- JavaScript request -->
+    <script src="./app.js"></script>
   </body>
 </html>

@@ -1,1 +1,71 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  font-family: "Truculenta";
+  background-color: rgb(5, 7, 44);
+  text-decoration-color: white;
+  display: flex;
+  font-size: 1.6em;
+  color: azure;
+}
+
+/* center align */
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+img {
+  max-width: 78px;
+  padding-top: 5%;
+}
+
+.header {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  top: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+button {
+  background-color: white;
+  padding: 5px;
+  font-family: "Truculenta";
+  border-radius: 0.5rem;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.8em;
+} /* texcuse txt size */
+
+.link {
+  color: white;
+} /* link color (white) */
+
+.link:hover {
+  color: #00ff00;
+} /* link hover (green) */
+
+/* font */
+.truculenta-Xafiq {
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
